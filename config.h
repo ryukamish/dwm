@@ -9,19 +9,25 @@ static const int swallowfloating    = 1;        /* 1 means swallow floating wind
 static const char *fonts[]          = { "mono:size=11:style=Bold", "FontAwesome:antialias=true:autohint=true" };
 static const char dmenufont[]       = "mono:size=11:style=Bold";
 
+#include "/home/kunal/.cache/wal/colors-wal-dwm.h"
+
+/*
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#808080";
 static const char col_gray3[]       = "#FFFFFF";
 static const char col_gray4[]       = "#000000";
 static const char col_cyan[]        = "#FFFFFF";
+*/
+/*
 static const char *colors[][3]      = {
-  /*               fg         bg         border    */
+//                 fg         bg         border
   [SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
   [SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
 };
+*/
 
 /* tagging */
-static const char *tags[] = { "  terminal", "  media", " browser", "  other" };
+static const char *tags[] = { "  ", "  ", " ", "  " };
 
 static const Rule rules[] = {
 	/* xprop(1):
